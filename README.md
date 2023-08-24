@@ -1,1 +1,102 @@
-# Translation
+## English to Hinglish Translator using OpenAI's GPT-3
+
+This is a simple Streamlit web application that utilizes OpenAI's GPT-3 language model to perform English to Hinglish translation. Hinglish is a hybrid language that combines Hindi and English, commonly used by speakers of Hindi to communicate more effectively. The translator aims to provide natural-sounding translations while retaining specific English words to enhance clarity.
+
+
+## Prerequisites
+Before running the application, you'll need the following:
+
+- Python 3.11 installed
+- OpenAI API key (set as environment variable OPENAI_API_KEY)
+- Streamlit and other required Python packages (install using pip install -r requirements.txt)
+
+
+## Getting Started
+
+**Step 1. Clone the repository to your local machine and then switch to code directory**
+
+```
+git clone https://github.com/gautamgc17/Translation.git
+cd Translation
+```
+
+**Step 2. Create a Virtual Environment and install Dependencies.**
+
+```
+pip install virtualenv
+```
+
+Create a new Virtual Environment for the project and activate it.
+
+```
+virtualenv env
+env\Scripts\activate
+```
+Once the virtual environment is activated, the name of your virtual environment will appear on left side of terminal.
+
+Next, we need to install the project dependencies in this virtual environment, which are listed in `requirements.txt`.
+
+```
+pip install -r requirements.txt
+```
+
+**Step3. Set your OpenAI API key as an environment variable named OPENAI_API_KEY**
+
+Create a file named _.env_ and store your [OpenAI API Key](https://platform.openai.com/account/api-keys) credentials in this file.
+
+```
+OPENAI_API_KEY = 'sk-'
+```
+
+**Step 4. Run the Streamlit application**
+
+```
+streamlit run main.py
+```
+
+## Usage
+- Access the web application by visiting the provided URL after running the Streamlit application.
+- Enter the English text you want to translate into the input field.
+- Click the "Translate" button to initiate the translation process.
+- The translated Hinglish text will be displayed below the input field.
+
+## How it Works
+- The application uses Streamlit for the user interface and interaction.
+- It communicates with OpenAI's GPT-3 model using the openai Python library.
+- The GPT-3 model is provided with system and user prompts to guide the translation process.
+- Specific rules are applied to retain clarity, such as keeping certain words in English within the translation.
+- The translation result is displayed on the Streamlit web interface.
+
+## Examples
+#### Example Input 1 - 
+
+
+![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/2.PNG)
+
+<br>
+
+#### Example Input 2 -
+
+
+![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/1.PNG)
+
+<br>
+
+#### Example Input 3 - 
+
+
+![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/3.PNG)
+
+<br>
+
+#### Example Input 4 - 
+
+
+![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/4.PNG)
+
+<br>
+
+## Notes
+- The translation quality may vary based on the complexity of the input text.
+- The GPT-3 model's responses might not always be perfect and might require adjustments.
+- Feel free to experiment with different input texts and adjust the translation parameters.
