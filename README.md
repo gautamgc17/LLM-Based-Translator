@@ -71,28 +71,28 @@ streamlit run main.py
 #### Example Input 1 - 
 
 
-![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/2.PNG)
+![example1](https://github.com/gautamgc17/Translation/blob/a3f4f9062f7413b36992e38ff8f94421c219b104/assets/2.PNG)
 
 <br>
 
 #### Example Input 2 -
 
 
-![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/1.PNG)
+![example1](https://github.com/gautamgc17/Translation/blob/a3f4f9062f7413b36992e38ff8f94421c219b104/assets/1.PNG)
 
 <br>
 
 #### Example Input 3 - 
 
 
-![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/3.PNG)
+![example1](https://github.com/gautamgc17/Translation/blob/a3f4f9062f7413b36992e38ff8f94421c219b104/assets/3.PNG)
 
 <br>
 
 #### Example Input 4 - 
 
 
-![example1](https://github.com/gautamgc17/Translation/blob/9e8708e95477d6916fbe8df9a6e24cba387b1dae/assets/4.PNG)
+![example1](https://github.com/gautamgc17/Translation/blob/a3f4f9062f7413b36992e38ff8f94421c219b104/assets/4.PNG)
 
 <br>
 
