@@ -1,4 +1,4 @@
-## English to Hinglish Translator using OpenAI's GPT-3
+# English to Hinglish Translator using OpenAI's GPT-3
 This is a simple Streamlit web application that utilizes OpenAI's GPT-3 language model to perform English to Hinglish translation. Hinglish is a hybrid language that combines Hindi and English, commonly used by speakers of Hindi to communicate more effectively. The translator aims to provide natural-sounding translations while retaining specific English words to enhance clarity.
 
 ## Prerequisites
