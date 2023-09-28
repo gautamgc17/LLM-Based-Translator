@@ -1,10 +1,5 @@
 ## English to Hinglish Translator using OpenAI's GPT-3
-
-## Objective
-Create a conversational interface to collect user information. The chat agents should guide users naturally and persuade them to provide information.
-
-## Features
-Designed a coherent conversation flow to collect Name, Email, Phone Number, Address, Date of Birth, and Education, using OpenAI language model: GPT-4 for chat responses and to implement multiple roles like "Introduction Agent," "Information Gathering Agent," "Validation Agent," and "Formatting Agent."
+This is a simple Streamlit web application that utilizes OpenAI's GPT-3 language model to perform English to Hinglish translation. Hinglish is a hybrid language that combines Hindi and English, commonly used by speakers of Hindi to communicate more effectively. The translator aims to provide natural-sounding translations while retaining specific English words to enhance clarity.
 
 ## Prerequisites
 Before running the application, you'll need the following:
